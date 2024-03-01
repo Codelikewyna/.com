@@ -1,4 +1,4 @@
-  @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 
 body {
 
@@ -18,7 +18,7 @@ body {
 
     body {
 
-      background-color: #f0f0f0;
+      background-color:  #708090;
 /*f0f0f0*/
   }
 
@@ -26,7 +26,7 @@ body {
 
 .small-text {
 
-  color: #5b5b5b;
+  color: white;
 
   font-size: 14px;
 
@@ -92,7 +92,7 @@ p {
 
   line-height: 1.5;
 
-  color: #5b5b5b;
+  color: white;
 
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 
-  color: #212121;
+  color: whitesmoke;
 
   font-size: 2.8em;
 
@@ -122,7 +122,7 @@ h1 {
 
 h2 {
 
-  color: #353535;
+  color: white;
 
   font-size: 2.4em;
 
@@ -134,10 +134,16 @@ h2 {
 
 h3 {
 
-  color: #484848;
+  color: white;
 
 }
 
+h6 {
+
+  color: black;
+
+}
+*/
 
 
 h3,
@@ -154,7 +160,7 @@ b, strong {
 
   background: #eee;
 
-  color: #5b5b5b;
+  color: #474559;
 
   font-weight: bold;
 
@@ -336,19 +342,14 @@ b, strong {
   will-change: transform;
 
   transition: transform 200ms linear;
-}
-
-.navbar[class*="-unpinned"] {
-
-  transform: translate(0, -150%);
-
-}
-
-.navbar[class*="-pinned"] {
-
-  transform: translate(0, 0);
+  border-radius: 20px;
+  
+  
+  background: transparent;
+  padding-bottom: 30px;
 
 }
+
 
 .navbar[class*="headroom--not-top"] {
 
@@ -359,7 +360,6 @@ b, strong {
   padding-top: 0;
 
   padding-bottom: 0;
-
 }
 
 
@@ -368,8 +368,10 @@ b, strong {
 
   font-weight: bold;
   margin-top: 20px;
+  margin-bottom: 8px;
   margin-right: 90px;
   font-size: 22px;
+  color: #474559;
 }
 
 
@@ -377,7 +379,7 @@ b, strong {
 .navbar-expand-sm .navbar-nav .nav-link {
 
   padding: 0 20px;
-
+  color: #474559;
 }
 
 
@@ -680,7 +682,7 @@ b, strong {
 
 .timeline-yr span {
 
-  color: #ffffff;
+  color: white;
 
   font-size: 16px;
 
@@ -708,7 +710,7 @@ b, strong {
 
 .timeline-info small {
 
-  color: #474559;
+  color: white;
 
   font-size: 16px;
 
@@ -828,6 +830,7 @@ b, strong {
 
   position: relative;
 
+  
 }
 
 .contact-form .form-control {
@@ -843,13 +846,12 @@ b, strong {
   font-weight: bold;
 
   margin: 16px 0;
-
+  
 }
 
 .contact-form .form-control:not(textarea) {
 
   height: 48px;
-
 }
 
 .contact-form .form-control:hover, .contact-form .form-control:focus {
