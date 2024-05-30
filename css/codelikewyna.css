@@ -18,10 +18,17 @@ body {
 
     body {
 
-      background-color:  #708090;
+      background-color:  #8899A6;
 /*f0f0f0*/
   }
 
+#project{
+  backround-color: linear-gradient(to top, rgba(0, 0, 0, 0.25), #8899A6);
+}
+
+#resume{
+  background-color: #8899A6;
+}
 
 
 .small-text {
@@ -66,6 +73,7 @@ a {
 
   transition: all 0.4s ease;
 
+  color: #ffc200
 }
 
 a:hover {
@@ -346,7 +354,7 @@ b, strong {
   
   
   background: transparent;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
 }
 
@@ -724,6 +732,11 @@ b, strong {
 
 }
 
+
+.img-fluid{
+  border-radius: 50px;
+  
+}
 
 
 .owl-carousel .owl-nav span {
